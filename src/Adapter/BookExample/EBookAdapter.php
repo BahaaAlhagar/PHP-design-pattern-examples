@@ -1,11 +1,11 @@
 <?php
 
+namespace Balhagar\PhpDesignPatterns\Adapter\BookExample;
+
 /**
  * This is the adapter here. Notice it implements BookInterface,
  * therefore you don't have to change the code of the client which is using a Book
  */
-
-namespace Balhagar\PhpDesignPatterns\Adapter\BookExample;
 class EBookAdapter implements BookInterface
 {
     /**

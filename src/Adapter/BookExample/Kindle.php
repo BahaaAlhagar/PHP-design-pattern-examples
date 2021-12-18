@@ -1,11 +1,11 @@
 <?php
 
+namespace Balhagar\PhpDesignPatterns\Adapter\BookExample;
+
 /**
  * this is the adapted class. In production code, this could be a class from another package, some vendor code.
  * Notice that it uses another naming scheme and the implementation does something similar but in another way
  */
-
-namespace Balhagar\PhpDesignPatterns\Adapter\BookExample;
 class Kindle implements EBookInterface
 {
     /**
