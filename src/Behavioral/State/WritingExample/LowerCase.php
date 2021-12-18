@@ -2,10 +2,10 @@
 
 namespace Balhagar\PhpDesignPatterns\Behavioral\State\WritingExample;
 
-class DefaultWriting implements WritingStateInterface
+class LowerCase implements WritingStateInterface
 {
     public function write(string $words)
     {
-        return $words;
+        return strtolower($words);
     }
 }

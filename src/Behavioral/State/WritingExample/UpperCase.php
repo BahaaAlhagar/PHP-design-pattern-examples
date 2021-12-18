@@ -2,10 +2,10 @@
 
 namespace Balhagar\PhpDesignPatterns\Behavioral\State\WritingExample;
 
-class LowerWriting implements WritingStateInterface
+class UpperCase implements WritingStateInterface
 {
     public function write(string $words)
     {
-        return strtolower($words);
+        return strtoupper($words);
     }
 }
