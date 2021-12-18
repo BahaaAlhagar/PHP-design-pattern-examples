@@ -1,11 +1,11 @@
 <?php
 
-namespace Balhagar\PhpDesignPatterns\Adapter\Tests;
+namespace Balhagar\PhpDesignPatterns\Structural\Adapter\Tests;
 
 use PHPUnit\Framework\TestCase;
-use Balhagar\PhpDesignPatterns\Adapter\BookExample\Book;
-use Balhagar\PhpDesignPatterns\Adapter\BookExample\Kindle;
-use Balhagar\PhpDesignPatterns\Adapter\BookExample\EBookAdapter;
+use Balhagar\PhpDesignPatterns\Structural\Adapter\BookExample\Book;
+use Balhagar\PhpDesignPatterns\Structural\Adapter\BookExample\Kindle;
+use Balhagar\PhpDesignPatterns\Structural\Adapter\BookExample\EBookAdapter;
 
 
 class AdapterBookExampleTest extends TestCase

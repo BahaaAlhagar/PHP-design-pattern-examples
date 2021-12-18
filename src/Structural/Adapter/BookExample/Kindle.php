@@ -1,6 +1,6 @@
 <?php
 
-namespace Balhagar\PhpDesignPatterns\Adapter\BookExample;
+namespace Balhagar\PhpDesignPatterns\Structural\Adapter\BookExample;
 
 /**
  * this is the adapted class. In production code, this could be a class from another package, some vendor code.

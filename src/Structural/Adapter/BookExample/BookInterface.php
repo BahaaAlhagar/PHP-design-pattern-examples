@@ -1,6 +1,6 @@
 <?php
 
-namespace Balhagar\PhpDesignPatterns\Adapter\BookExample;
+namespace Balhagar\PhpDesignPatterns\Structural\Adapter\BookExample;
 
 interface BookInterface
 {
