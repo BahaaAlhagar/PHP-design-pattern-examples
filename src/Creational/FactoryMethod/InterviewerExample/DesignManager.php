@@ -6,6 +6,6 @@ class DesignManager extends HiringManager
 {
     protected function makeInterviewer(): InterviewerInterface
     {
-        return new Designer();
+        return new DesignInterviewer();
     }
 }

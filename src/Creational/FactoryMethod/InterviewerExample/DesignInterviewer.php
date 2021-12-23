@@ -2,10 +2,10 @@
 
 namespace Balhagar\PhpDesignPatterns\Creational\FactoryMethod\InterviewerExample;
 
-class Developer implements InterviewerInterface
+class DesignInterviewer implements InterviewerInterface
 {
     public function askQuestions()
     {
-        return 'Asking about design patterns!';
+        return 'Asking about UI/UX!';
     }
 }
